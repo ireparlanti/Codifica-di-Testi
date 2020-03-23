@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<text>
+    il primo xml con validazione
+</text>
+<text />
+
+<!-- Il check sintattico restituisce l'output seguente:
+    
+    mlfirst.xml:5: parser error : Extra content at the end of the document
+<text />
+^
+
+-->
+
+<!-- Il documento contiene un elemento radice <text> che ha un contenuto di tipo testuale.
+        Alla fine del documento compare un elemento vuoto <text />. Così come scritto
+        l'elemento vuoto non è figlio dell'elemento root e, inoltre, sebbene un tag possa essere
+        usato più di una volta, il tag scelto genera confusione perché uguale a quello dell'elemento
+        radice che deve essere uno e uno solo.
+
+        Di seguito propongo una correzione rendendo l'elemento vuoto </text> figlio della radice:
+
+        
+        <text>
+            il primo xml con validazione
+            <text />
+        </text>
+
+
+-->
+
+<!--  Inserisco un figlio dell'elemento root 
+        ed un fratello del figlio: 
+    
+    
+
+<text>
+    <introduction>
+        child of text
+    </introduction>
+    <chapter_1>
+        child of text and sibling of introduction
+    </chapter_1>
+    
+</text>
+
+
+-->

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!-- Esempio di gerarchie sovrapposte -->
+
+<!-- Di seguito l'esempio sbagliato -->
+
+<capitolo>
+
+    <pagina> testo con <paragrafo> errore </pagina>
+    testo corretto </paragrafo>
+
+</capitolo>
+
+<!-- Il check sintattico restituisce l'output seguente:
+
+    esercizio.xml:8: parser error : Opening and ending tag mismatch: paragrafo line 8 and pagina
+    <pagina> testo con <paragrafo> errore </pagina>
+                                                   ^
+esercizio.xml:9: parser error : Opening and ending tag mismatch: pagina line 8 and paragrafo
+    testo corretto </paragrafo>
+                               ^   
+-->
+
+<!-- Gli elementi non annidati correttamente generano un errore nel parsing sintattico -->
+
+<!-- Di seguito l'esempio corretto, una gerarchia sintattica che segue il modello ad albero 
+        e che non sovrappone gli elementi di apertura e chiusura dei tag
+
+<capitolo>
+    <pagina>
+
+        
+
+        <paragrafo>
+
+            
+
+        </paragrafo>
+    
+    </pagina>
+
+
+</capitolo>
+
+
+-->
