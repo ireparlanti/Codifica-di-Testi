@@ -1,0 +1,9 @@
+<!ELEMENT TEI (header, facsimile?, text+)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT text (#PCDATA)>
+
+<!-- Irene Parlanti
+     matricola: 587940
+     LM Informatica Umanistica
+     Corso Codifica di Testi 19-20-->
