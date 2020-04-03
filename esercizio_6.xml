@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE TEI SYSTEM "esercizio_6.dtd" >
+<TEI>
+    <header type="intestazione">
+
+    </header>
+
+    <facsimile source="risorsa">
+    
+    </facsimile>
+    
+    <testo id="testo_unico">
+    
+    </testo>
+</TEI>
