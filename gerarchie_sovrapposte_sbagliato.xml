@@ -1,26 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<TEI>
-
-    <teiHeader> </teiHeader>
 
 <!-- Esempio di gerarchie sovrapposte -->
 
 <!-- Di seguito l'esempio sbagliato -->
 
-            <text>
-                <capitolo>
-
-                    <pagina> testo <paragrafo> testo </pagina> <pagina>
+<text>
+    <capitolo>
+        <pagina> testo <paragrafo> testo </pagina> <pagina>
                             testo </paragrafo> </pagina>
 
-                </capitolo>
+    </capitolo>
 
+</text>
 
-            </text>
-
-
-
-</TEI>
 
 <!-- Il check sintattico restituisce l'output seguente
         gerarchie_sovrapposte_sbagliato.xml:13: parser error : Opening and ending tag mismatch: paragrafo line 13 and pagina
