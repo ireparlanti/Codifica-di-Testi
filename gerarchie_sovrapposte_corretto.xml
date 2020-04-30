@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<TEI>
+
+<teiHeader> </teiHeader>
+
+<!-- Esempio di gerarchie sovrapposte -->
+
+<!-- Di seguito l'esempio corretto -->
+
+<text>
+    <capitolo>
+        <pagina/>
+            <paragrafo> testo <pagina/>
+            testo corretto </paragrafo>
+
+    </capitolo>
+
+
+</text>
+
+
+
+</TEI>
