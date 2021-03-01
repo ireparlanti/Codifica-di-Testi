@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!-- Irene Parlanti 587940
+
+    Esempio non ben formato-->
+
+<capitolo>
+    <pagina> testo con <paragrafo> errore </pagina>
+        testo corretto </paragrafo>
+</capitolo>
+
+<!-- Il check sintattico restituisce l'output seguente: 
+
+    esercizio_3.xml:8: parser error : Opening and ending tag mismatch: paragrafo line 8 and pagina
+    <pagina> testo con <paragrafo> errore </pagina>
+                                                   ^
+esercizio_3.xml:9: parser error : Opening and ending tag mismatch: pagina line 8 and paragrafo
+        testo corretto </paragrafo>
+                                   ^
+-->
+
+<!-- Gli elementi non annidati correttamente generano un errore nel parsing sintattico-->
+
+<!-- Di seguito l'esempio corretto, un gerarchia sintattica che segue il modello ad albero e che non sovrappone gli elementi di apertura e chiusura dei tag-->
+
+<!-- Inserisco inoltre un elemento figlio ed un elemento fratello-->
+
+<!--
+    <capitolo>
+        <pagina>
+            <paragrafo_1>
+                <sottoparagrafo> elemento figlio</sottoparagrafo> 
+            </paragrafo_1>
+            <paragrafo_2> elemento 
+                fratello 
+            </paragrafo_2>
+        </pagina>
+    </capitolo>
+-->
