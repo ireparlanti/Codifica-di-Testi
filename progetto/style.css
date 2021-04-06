@@ -1,0 +1,47 @@
+div.writing_description, div.information{
+    line-height: 1.5;
+}
+
+div.letter_description, .letter_body{
+    line-height: 1.0;
+}
+
+p{
+    line-height: 1.3;
+}
+
+img[id="img001f"], img[id="img001r"]{
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+}
+
+
+.date{
+    margin-left: 150px;
+}
+
+.opening_salutation{
+    margin-left: 10px ;
+}
+
+.letter_body{
+    margin-left: 10px;
+}
+
+.closing_salutation{
+    margin-left: 20px;
+    line-height: 0.5;
+}
+
+
+s{
+    display: block;
+    text-decoration: none;
+    position: relative;
+}
+
+del {
+    text-decoration: line-through;
+}
+
