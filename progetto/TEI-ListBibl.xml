@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI 
+  xmlns="http://www.tei-c.org/ns/1.0" 
+  xmlns:svg="http://www.w3.org/2000/svg" 
+  xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <!-- Insert title for this digital text -->
+                </title>
+            </titleStmt>
+            <publicationStmt>
+                <p>
+                    <!-- Insert information about the publication of this digital text -->
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                    <!-- Insert a bibliographic description of the source for this digital text -->
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>This is a template for a minimal TEI header with the mandatory components:</p>
+        </body>
+        <back>
+            <div type="biblCompleta">
+                <listBibl>
+
+                    <bibl xml:id="Amore1894" type="print">
+                        <author xml:id="AA">
+                        	<forename>Antonino</forename>
+                        	<surname>Amore</surname>
+                        </author>
+                        <title level="m">Vincenzo Bellini. Vita. Studi e ricerche</title>
+                        <pubPlace>Catania</pubPlace>
+                        <publisher>Giannotta</publisher>
+                        <date when="1894">1894</date>
+                     </bibl>
+
+                     <bibl xml:id="Cambi1943" type="print">
+                        <author xml:id="LC"> 
+                        	<forename>Luisa</forename>
+                        	<surname>Cambi</surname> 
+                        </author>
+                        <title level="m">Bellini. Epistolario</title>
+                        <pubPlace>Milano</pubPlace>
+                        <publisher>Mondadori</publisher>
+                        <date when="1943">1943</date>
+                    </bibl>
+
+                    <bibl xml:id="Neri2005" type="print">
+                        <author xml:id="CN">
+                        	<forename>Carmelo</forename>
+                        	<surname>Neri</surname>
+                        </author>
+                        <title level="m">Vincenzo Bellini. Nuovo Epistolario. 1819-1835</title>
+                        <pubPlace>Catania</pubPlace>
+                        <publisher>Agorà</publisher>
+                        <date when="2005">2005</date>
+                    </bibl>
+
+                    <bibl xml:id="Seminara2017" type="print">
+                        <editor ref="#GS">
+                        	<forename>Graziella</forename>
+                        	<surname>Seminara</surname>
+                        </editor>
+                        <title level="m">Vincenzo Bellini. Carteggi</title>
+                        <title level="s">Historiae Musicae Cultores</title>
+                     		<biblScope unit="volume">CXXXI</biblScope>
+                        <biblScope unit="page">pp. vi+622</biblScope>
+  											<pubPlace>Firenze</pubPlace>
+                        <publisher>Leo S. Olschki Editore</publisher>
+                        <date when="2017">2017</date>                       
+                    </bibl>
+
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
+
