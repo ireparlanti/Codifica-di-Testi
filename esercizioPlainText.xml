@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Le armi della persuasione: versione elettronica</title>
+                <respStmt>Conversione TEI P5 a cura di</respStmt>
+                <name>Irene Parlanti</name>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Irene Edizioni</publisher>
+                <date>April 2021</date>
+                <availability status="restricted"></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Le armi della persuasione</title>
+                    <author xml:id="RBC">Robert B.Cialdini</author>
+                    <publisher>GIUNTI</publisher>
+                    <date>2005</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <!--dedica-->
+        <front>
+            <div type="dedication" rend="italic">
+                <lb n="ded01" />Questo libro è dedicato
+                <lb n="ded02" />al mio <emph>adorato</emph> figlio <foreign xml:lang="en">Chris</foreign>
+            </div> 
+        </front>
+        <body>
+            <div type="introduction">
+                <pb n="pag3"/>
+                <head type="section">Introduzione</head>
+                <p n="par1" />
+                <lb n="l01"/>Ormai posso ammetterlo tranquillamente. Per tutta
+                <lb n="l02"/>la vita sono stato ingenuo. Per quel che riesco a ri-
+                <lb n="l03"/>cordare, sono stato facile preda di venditori, esattori,
+                <lb n="l04"/>rappresentanti, operatori d'ogni genere. È vero, solo al-
+                <lb n="l05"/>cune di queste persone avevano scopi disonesti: gli altri
+                <lb n="l06"/>─ per esempio, gli inviati di certe istituzioni benefiche ─
+                <lb n="l07"/>erano animati dalle migliori intenzioni. Fa lo stesso. Con
+                <lb n="l08"/>una frequenza <emph>imbarazzante</emph>, mi sono trovato in posses-
+                <lb n="l09"/>so di abbonamenti a riviste che non desideravo affatto, 
+                <lb n="l10"/>o di biglietti per un ballo di beneficenza. Probabilmente
+                <lb n="l11"/>questo antico <foreign xml:lang="lat" rend="italic">status</foreign> di vittima designata spiega il mio in-
+                <lb n="l12"/>teresse per lo studio dell'acquiescenza. Quali sono esat-
+                <lb n="l13"/>tamente i fattori che inducono una persona a dire di sì
+                <lb n="l14"/>alle richieste di un'altra? E quali sono le tecniche che sfrut-
+                <lb n="l15"/>tano con più efficacia questi fattori? Perché una richie-
+                <lb n="l16"/>sta formulata in un certo modo viene respinta, mentre una
+                <lb n="l17"/>richiesta identica presentata in maniera leggermente di-
+                <lb n="l18"/>versa ottiene il risultato voluto?
+                <p n="par2" />
+                <lb n="l19"/>E così, come psicologo sociale, ho cominciato a fare ri-
+                <lb n="l20" />cerche sulla psicologia dell'acquiescenza. Dapprima il la-
+                <lb n="l21" />voro di ricerca prese la forma di esperimenti eseguiti per
+                <lb n="l22" />lo più in laboratorio su studenti universitari. Volevo sco-
+                <lb n="l23" />prire i principi psicologici che intervengono nella tenden-
+                <lb n="l24" />za ad accondiscendere alle richieste. Oggi gli psicologi ne
+                <lb n="l25" />sanno abbastanza su questi principi, quali sono e come
+                <pb n="pag2" />
+                <lb n="l26" />agiscono. Io li ho definiti <quote resp="#RBC">"armi di persuasione"</quote>; alcune del-
+                <lb n="l27" />le più importanti le descriverò nei capitoli di questo libro.
+                <p n="par3" />
+                <lb n="l28" />Dopo qualche tempo, però, cominciai ad accorgermi
+                <lb n="l29" />che il lavoro sperimentale, benché importante, non bastava. 
+                <lb n="l30" />Non mi permetteva di giudicare l'importanza di quei prin-
+                <lb n="l31" />cipi fuori delle mura del laboratorio o dell'università do-
+                <lb n="l32" />ve li esaminavo. Mi resi conto che se volevo capire appie-
+                <lb n="l33" />no la psicologia dell'acquiescenza, avrei dovuto allargare
+                <lb n="l34" />il mio campo d'indagine. Avrei dovuto studiare i profes-
+                <lb n="l35" />sionisti della persuasione, le stesse persone che spesso ave-
+                <lb n="l36" />vano usato quei principi su di me con tanto successo. Lo-
+                <lb n="l37" />ro sanno che cosa funziona e che cosa non funziona: lo
+                <lb n="l38" /> garantisce la legge della sopravvivenza. Il loro mestiere è 
+                <lb n="l39" />farci acconsentire alle richieste e i loro mezzi di sostenta-
+                <lb n="l40" />mento dipendono proprio da questo. Quelli che non san-
+                <lb n="l41" />no portare la gente a dire di sì ben presto escono di sce-
+                <lb n="l42" />na, quelli che lo sanno fare rimangono e prosperano.
+            </div> [...]
+
+            <div type="chapter" n="ch1">
+            <pb n="pag9">
+            <head type="number">I</head>
+            <head type="section"><hi rend="uppercase">L</hi>a persuasione</head>
+            <epigraph>
+                <quote rend="italic">
+                    <lb n="q01" />Tutto dovrebbe essere reso il più sem-
+                    <lb n="q02" />plice possibile, ma non più semplice
+                    <lb n="q03" />ancora.
+                </quote><ref><hi rend="uppercase">ALBERT EINSTEIN</hi></ref>
+            </epigraph>
+            <p n="par12" />
+            <lb n="l90" />Un giorno mi arrivò una telefonata di un'amica che di
+            <lb n="l91" />recente aveva aperto in Arizona un negozio di bigiotteria
+            <lb n="l92" />indiana. Aveva una gran fretta di comunicarmi una noti-
+            <lb n="l93" />zia curiosa: era successa una cosa strana e pensava che
+            <lb n="l94" />come psicologo forse avrei saputo spiegargliela. Si tratta-
+            <lb n="l95" />va di un certo lotto di turchesi che aveva avuto difficoltà
+            <lb N="l96" />a vendere. La stagione turistica era al culmine, il negozio
+            <lb n="l97" />era pieno di clienti come non mai, i monili con i turchesi
+            <lb n="l98" />erano di buona qualità per il prezzo richiesto, eppure
+            <lb n="l99" />non si vendevano. La mia amica aveva tentato un paio
+            <lb n="l100" />dei soliti trucchi, mettendo in evidenza i turchesi nella
+            <lb n="l101" />vetrina e dando ordine ai commessi di richiamare l'atten-
+            <lb n="l102" />zione su quegli articoli, ma nemmeno questo era servito.
+            <p n="par13" />
+            <lb n="l103" />Alla fine, la sera prima di partire per un giro di acqui-
+            <lb n="l104" />sti, ormai esasperata, scarabocchiò un biglietto per la di-
+            <lb n="l105" />rettrice del negozio:<q type="written" rend="PRE ldquo POST rdquo">Questo <foreign xml:lang="fra" rend="italic">plateau</foreign>: tutti i prezzi X
+            <lb n="l106" />1/2</q>,sperando soltanto di sbarazzarsi degli articoli che 
+            <lb n="l107" />non sopportava più vedere, anche a costo di rimetter-
+            <lb n="l108" />ci. Quando tornò, dopo qualche giorno, non si stupì che
+            <lb n="l109" />fossero stati venduti fino all'ultimo.
+             </div>
+        
+        </body>
+        <back></back>
+    </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Esempi d'uso</title>
+                <respStmt>A cura di</respStmt>
+                <name xml:id="IP">Irene Parlanti</name>
+            </titleStmt>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <p>Puntatore, nota, lista, glossario, nomi, rs e term</p>
+        </front>
+        <body>
+            <div type="list">
+                <list type="simple">
+                    <head>Libri e romanzi da leggere almeno una volta nella vita</head>
+                    <item>Guerra e pace, di Lev Nikolaevic Tolstoj</item>
+                    <item>Il Processo, di Franz Kafka</item>
+                    <item>Il barone rampante di Italo Calvino   </item>
+                    <item>Moby Dick, di Herman Melville </item>
+                    <item>Delitto e castigo, di Fedor Michajlovic Dostoevskij </item>
+                    <item>Il deserto dei Tartari, di Dino Buzzati</item>
+                    <item>La montagna incantata di Thomas Mann   </item>
+                    <item>Memorie di Adriano, di Marguerite Yourcenar </item>
+                    <item>Cent'anni di solitudine, di Gabriel García Márquez</item>
+                    <item>Alla ricerca del tempo perduto, di Marcel Proust   </item>
+                </list>
+            </div>
+
+            <div type="description">
+                <p>
+                    <lb n="1" />Questa è la storia di <forename>Cosimo</forename><surname>di Rondò</surname>, vissuto a <placeName><settlement>Ombrosa</settlement></placeName>, in <placeName><region>Liguria</region></placeName>, nella seconda metà
+                    <lb n="2" />del <num value="18">XVIII</num> secolo. Il giovane Cosimo stanco dei continui rimproveri dei suoi <rs type="person">educatori</rs> decide 
+                    <lb n="3" />un giorno di sfuggirgli nascondendosi in cima a un albero. Il problema però, è che decide di 
+                    <lb n="4" />non scendere mai più. Cosimo passerà la sua vita tra le fronde più alte degli alberi dove
+                    <lb n="5" />costruisce tutto un mondo, destando meraviglia e ammirazione in chiunque scopra la sua 
+                    <lb n="6" />storia. <ref target="https://www.mondadoristore.it/libri-da-leggere-assolutamente-prima-di-morire/">Sito Mondadori</ref>
+                </p>
+            </div>
+
+            <div type="list">
+                <list type="gloss">
+                    <head xml:lang="fra">Les couleurs</head>
+                    <headLabel xml:lang="it">Italiano</headLabel>
+                    <headItem xml:lang="fra">Français</headItem>
+                    <label xml:lang="it">giallo</label>
+                    <item xml:lang="fra">jaune</item>
+                    <label xml:lang="it">bianco</label>
+                    <item xml:lang="fra">blanc</item>
+                    <label xml:lang="it">rosa</label>
+                    <item xml:lang="fra">rose</item>
+                    <label xml:lang="it">rosso</label>
+                    <item xml:lang="fra">rouge</item>
+                    <label xml:lang="it">nero</label>
+                    <item xml:lang="fra">noir</item>
+                    <label xml:lang="it">beige, *<ptr target="#beige" /></label>
+                    <item xml:lang="fra">beige</item>
+                    <label xml:lang="it">arancione</label>
+                    <item xml:lang="fra">orange</item>
+                    <label xml:lang="it">marrone</label>
+                    <item xml:lang="fra">marron</item>
+                    <label xml:lang="it">viola</label>
+                    <item xml:lang="fra">violet</item>
+                    <label xml:lang="it">grigio</label>
+                    <item xml:lang="fra">gris</item>
+                    <label xml:lang="it">blu</label>
+                    <item xml:lang="fra">bleu</item>
+                    <label xml:lang="it">verde</label>
+                    <item xml:lang="fra">vert</item>
+                </list>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+                <note type="gloss" xml:id="beige" resp="#IP" target="https://www.treccani.it/vocabolario/beige/">
+                Di colore <term rend="italic">bigio</term> tendente al giallo, come quello
+                della lana naturale; nel linguaggio della moda, indica invece, anche con uso di sost., un
+                colore nocciola chiaro.
+                </note><ref target="https://www.treccani.it/vocabolario/beige/">Treccani</ref>
+            </div>
+
+        </back>
+    </text>
+</TEI>
