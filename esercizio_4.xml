@@ -15,10 +15,10 @@
 
         </porzione-html>
 </root>
-<!--Il check sintattico restituisce il seguente output:
-    <?xml version="1.0" encoding="UTF-8"?>
+<!--Il check sintattico restituisce il seguente output:-->
+    <!--<?xml version="1.0" encoding="UTF-8"?>-->
     <!-- Inserisco una porzione di codice html -->
-    <root>
+    <!--<root>
     
         <porzione-html>
 
@@ -30,5 +30,4 @@
         </porzione-html>
     </root>
 
-Ovvero restituisce la porzione di codice html come blocco di testo
--->
+Ovvero restituisce la porzione di codice html come blocco di testo-->
